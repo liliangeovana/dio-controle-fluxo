@@ -12,8 +12,7 @@ public class Contador {
         int segundoValor = terminal.nextInt();  
 
             try{
-            contar(primeiroValor, segundoValor);
-
+                contar(primeiroValor, segundoValor);
             }catch(ParametrosInvalidosException p){
                 System.out.println("[ERRO] O segundo valor deve ser maior que o primeiro.");
             }
